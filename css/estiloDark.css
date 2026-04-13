@@ -2,3 +2,22 @@ h1
 {
     color: gray;
 }
+/*CON ID ES CON #*/
+#fotoCaballo
+{
+    width: 150px;
+    height: 150px;
+}
+#fotoanimada
+{
+    width: 300px;
+}
+/*CON CLASE ES CON .*/
+.bordes
+{
+    border:2px solid blue;
+}
+label 
+{
+    color:rebeccapurple;
+}
