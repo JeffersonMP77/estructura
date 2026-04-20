@@ -2,13 +2,16 @@
 <html lang="en">
 
     <!-- CTRL + Ñ PARA ABRIR LA TERMINAR GIT -->
-     <!-- PARA ADICIONAR TODO ES GIT ADD Y DEPENDE SI SE ADICIONA TODO ES CON * -->
+    <!-- PARA ADICIONAR TODO ES GIT ADD Y DEPENDE SI SE ADICIONA TODO ES CON * -->
 
     <!-- ESTO ES EL CODIGO CSS ORGANIZADO EN EL MISMO DOCUMENTO (PARA COMENTAR ES CTRL + K + U)-->
-    
+     
 
 <head>
     <!-- SE LE DA MAS PRIORIDAD A LA ULTIMA REFERENCIA POR EL ESTILO CASCADA  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estiloDark.css">
     <link rel="stylesheet" href="css/estilospropios.css">
     <meta charset="UTF-8">
@@ -16,14 +19,22 @@
     <title>Primer Clase</title>
 </head>
 
-<style>
-    h1
-    {
-        color: red;
-    }
-</style>
-
 <body>
+
+    <section id="cabeza">
+
+        <div id="cajaLogo">
+            <center>
+            <img src="imagenes/Logosinfondo.png" id="fotoCaballo">
+            </center>
+        </div>
+
+        <div id="textoLogo" class="miltonian-tattoo-regular">
+            Monte Seneste
+        </div>
+
+
+    </section>
 
     
 
@@ -52,7 +63,7 @@
     <h2>Titulo 2 pa Css</h2>
     <a href="https://es.wikipedia.org/wiki/Equus_ferus_caballus">
 
-        <img src="imagenes/logo caballo - copia.jpg" id="fotoCaballo" class="bordes">
+        
         <img src="imagenes/animacion 22.gif" id="fotoanimada" class="bordes">
 
     </a>
@@ -156,7 +167,10 @@
         <label for="">Foto: </label>
         <input type="file" name="fotoCaballo" id="">
 
-        <label for="contrasena">Contraseña</label>
+        <br>
+        <label for="usuario">Usuario: </label>
+        <input type="text" name="usuario" id="" required>
+        <label for="contrasena">Contraseña: </label>
         <input type="password" name="contrasena" id="" required>
 
         <br>
@@ -170,8 +184,30 @@
         <label for="fecNaCaballo">Fecha de Nacimiento Caballo: </label>
         <input type="date" name="fecNaCaballo" id="">
 
-
         </form>
+
+    </section>
+
+    <section>
+        <h2>
+            Caballos de paso fino
+        </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci repudiandae provident, eveniet inventore deserunt consequatur non at blanditiis odit molestias vero ex, expedita excepturi quis nobis voluptas, aspernatur quibusdam exercitationem?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde perspiciatis nihil tenetur minima corrupti. Esse dolores neque, mollitia laborum sed at ipsum, delectus, asperiores voluptates et consequatur blanditiis? Eum, suscipit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nostrum recusandae dolor provident, inventore commodi deserunt deleniti quibusdam distinctio vel minus corporis quas eligendi velit veniam reiciendis quia doloribus. Quae?</p>
+
+        <h2>
+            Caballos trochadores
+        </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, repellendus fuga eius beatae est exercitationem iusto facere in odit quia velit consequuntur maxime at pariatur commodi inventore optio! Ad, quis?</p>
+        <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum aliquam mollitia neque consequatur dolore, repellendus nemo. Nam repudiandae exercitationem maxime, non sunt laudantium aspernatur minima consectetur ut quibusdam rerum tempore.</P>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium ipsa accusantium quo natus nesciunt, eveniet quasi illo voluptatum magnam vitae aperiam ratione quis ullam corrupti consectetur. Commodi, quam dicta.</p>
+
+        <h2>
+            Caballos sin tecnica
+        </h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, eos officia vel praesentium modi iure est vero numquam nisi tenetur quam voluptates esse laborum magnam, et illum aut? Eos, necessitatibus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est adipisci quisquam rerum inventore, iure vel doloribus ducimus nesciunt! Nam repellat commodi aut laborum aspernatur ad pariatur quaerat nobis excepturi. Enim.</p>
 
 
 

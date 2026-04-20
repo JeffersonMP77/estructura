@@ -1,4 +1,16 @@
-h1
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.miltonian-tattoo-regular {
+  font-family: "Miltonian Tattoo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* CON ETIQUETA SOLO SE ESCRIBE EL NOMBRE DE LA ETIQUETA */
+h2
 {
     color: gray;
 }
@@ -20,4 +32,27 @@ h1
 label 
 {
     color:rebeccapurple;
+}
+h2 + p /*CON EL SIMBOLO DEL + SE SELECCIONAN SOLO LOS ADYACENTES AL H2 PARA MODIFICARLOS*/
+{
+    color: green;
+    font-weight: bold;
+    font-size: 40px;
+}
+/*CON EL SIMBOLO DE LA Ñ SE SELECCIONAN TODOS LOS H2 PARA MODIFICARLOS*/
+/*CON EL SIMBOLO DEL * SE SELECCIONA TODO EL TEXTO PARA MODIFICARLOS*/
+
+#cajaLogo
+{
+    width: 100%;
+    /*border:2px solid black;*/
+    background-color: #8C4A32;
+    /*padding: 5px; /*ADICIONANDOLE YA SEA TOP, LEFT O RIGHT SE MUEVE A EL LADO QUE SE QUIERA*/
+    /*margin: 10px; /*ADICIONANDOLE YA SEA TOP, LEFT O RIGHT SE MUEVE A EL LADO QUE SE QUIERA*/
+}
+#textoLogo{
+    text-align: center;
+    background-color: #8C4A32;
+    color: #F2A172;
+    font-size: 50px;
 }
